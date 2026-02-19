@@ -30,6 +30,11 @@ jobs:
         run: |
           docker build -t app-image .
 
+      - name: Debug Secrets
+        run: |
+          echo "Account: ${{ secrets.AWS_ACCOUNT_ID }}"
+          echo "Repo: ${{ secrets.ECR_REPOSITORY }}"
+
       - name: Tag Image
         run: |
           docker tag app-image:latest \
