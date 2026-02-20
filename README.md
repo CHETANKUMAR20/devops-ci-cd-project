@@ -1,7 +1,6 @@
-# devops-ci-cd-project
+# devops-ci-cd-project |  SSH based deployment  |  
 🚀 DevOps CI/CD Project Documentation
-📌 Project Overview
- SSH based deployment   
+📌 Project Overview  
 This project demonstrates an end-to-end CI/CD pipeline using:
 
 GitHub Actions (CI/CD)
